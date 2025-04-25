@@ -29,3 +29,20 @@ rds = {
   }
 }
 
+docdb = {
+  main = {
+    family         = "docdb4.0"
+    instance_class = "db.t3.medium"
+    instance_count = 1
+    engine_version = "4.0.0"
+
+  }
+}
+
+elasticache = {
+  main = {
+    engine_version          = "6.2"
+    family                  = "redis6.x"
+    node_type               = "cache.t4g.micro"
+  }
+}
