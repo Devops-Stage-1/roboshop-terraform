@@ -10,5 +10,7 @@ variable "public_subnets" {}
 variable "vpc_cidr_block" {}
 
 variable "rds" {}
+variable "docdb" {}
 
 variable "kms_key_id" {}
+variable "vault_token" {}
