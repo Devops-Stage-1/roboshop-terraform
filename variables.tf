@@ -11,6 +11,7 @@ variable "vpc_cidr_block" {}
 
 variable "rds" {}
 variable "docdb" {}
-
+variable "elasticache" {
+}
 variable "kms_key_id" {}
 variable "vault_token" {}

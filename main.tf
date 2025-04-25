@@ -49,7 +49,7 @@ module "docdb" {
 
 module "elasticache" {
   for_each = var.elasticache
-  source   = "./modules/elasticache"
+  source   = "./modules/elasticcache"
 
   engine_version          = each.value["engine_version"]
   family                  = each.value["family"]
